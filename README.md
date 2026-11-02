@@ -16,6 +16,7 @@ Es zeigt Uhrzeit, Wetter, optionale RSS-Schlagzeilen, Webradio, installierte TV-
 - Start installierter Tizen-Apps mit Fehlerbehandlung
 - Erkennung und Umschalten verbundener HDMI-Eingänge
 - Lokale, zufällig gemischte Galerie
+- Neutrales CSS-Theme `golden-night` mit optionalen goldenen Kachelsymbolen
 - Keine Telemetrie, kein Backend und keine Werbung
 
 ## Schnellstart unter Windows

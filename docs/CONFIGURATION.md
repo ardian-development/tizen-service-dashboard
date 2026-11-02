@@ -2,6 +2,17 @@
 
 Alle sichtbaren Inhalte werden in [`js/dashboard.config.js`](../js/dashboard.config.js) eingestellt. Die Datei ist absichtlich Teil des Projekts, enthält aber keine geheimen Daten.
 
+## Theme und Kachelsymbole
+
+```js
+theme: {
+  preset: "golden-night",
+  tileIconStyle: "gold"
+}
+```
+
+`golden-night` ist ein abstrakter Emerald-/Gold-Look, der vollständig aus CSS-Verläufen, Linien und Farben besteht. Es werden keine Fotos, Logos, Maskottchen oder sonstige Marken-Assets mitgeliefert. Mit `tileIconStyle: "gold"` erscheinen die konfigurierten Textsymbole der App- und HDMI-Kacheln in einem einheitlichen goldenen Rahmen.
+
 ## Branding und Wetter
 
 ```js

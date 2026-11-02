@@ -3,6 +3,11 @@
  * No secrets belong in this file or in a WGT package.
  */
 window.DASHBOARD_CONFIG = {
+    theme: {
+        /* "golden-night" is a generic emerald/gold visual preset made entirely with CSS. */
+        preset: "golden-night",
+        tileIconStyle: "gold"
+    },
     business: {
         name: "Studio Beispiel",
         subtitle: "Beauty · Hair · Wellness",

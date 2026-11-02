@@ -52,8 +52,10 @@
     }
 
     function applyBrand() {
-        var brand = config.business || {};
+        var brand = config.business || {}, theme = config.theme || {};
         var root = document.documentElement;
+        document.body.setAttribute("data-theme", string(theme.preset, "golden-night"));
+        document.body.setAttribute("data-icon-style", string(theme.tileIconStyle, "gold"));
         root.style.setProperty("--accent", string(brand.accent, "#80d5c2"));
         root.style.setProperty("--accent-warm", string(brand.accentWarm, "#f2c46d"));
         byId("business-name").textContent = string(brand.name, "Service Dashboard");

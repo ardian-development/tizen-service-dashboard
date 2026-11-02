@@ -2,11 +2,15 @@
 * { box-sizing: border-box; }
 html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
 body { background: #06111d; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+body[data-theme="golden-night"] { background: #06110f; }
 button { color: inherit; font: inherit; }
 .dashboard { position: relative; width: 120rem; min-height: 67.5rem; padding: 3.3rem 4.4rem 2rem; overflow: hidden; background: radial-gradient(circle at 15% 0%, #174e61 0, transparent 31%), linear-gradient(135deg, #081a2c 0%, #071d31 54%, #102e39 100%); }
+body[data-theme="golden-night"] .dashboard { background: radial-gradient(ellipse at 4% 92%, rgba(15, 98, 78, .8) 0, transparent 38%), radial-gradient(ellipse at 96% 5%, rgba(191, 146, 49, .26) 0, transparent 28%), linear-gradient(135deg, #031814 0%, #062a23 48%, #071b1c 100%); }
 .background-orb { position: absolute; border: .08rem solid rgba(128, 213, 194, .18); border-radius: 50%; opacity: .72; pointer-events: none; }
 .background-orb--one { top: -23rem; right: -13rem; width: 59rem; height: 59rem; }
 .background-orb--two { bottom: -33rem; left: 25rem; width: 69rem; height: 69rem; border-color: rgba(242, 196, 109, .12); }
+body[data-theme="golden-night"] .background-orb--one { border-color: rgba(244, 205, 111, .28); }
+body[data-theme="golden-night"] .background-orb--two { border-color: rgba(114, 208, 178, .22); }
 .hero, .overview, .launch-section, footer { position: relative; z-index: 1; }
 .hero { display: flex; min-height: 12.2rem; align-items: flex-start; justify-content: space-between; }
 .eyebrow { margin: 0; color: var(--accent); font-size: .78rem; font-weight: 800; letter-spacing: .18rem; }
@@ -39,6 +43,7 @@ h1 { margin: .36rem 0 0; font-size: 2.3rem; font-weight: 700; letter-spacing: -.
 .tile-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .8rem; }.tile-grid--sources { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .tile { position: relative; display: flex; min-height: 7.3rem; padding: .8rem; border: .08rem solid rgba(194, 221, 223, .42); border-radius: .9rem; background: linear-gradient(135deg, rgba(19, 58, 81, .96), rgba(7, 30, 51, .98)); cursor: pointer; text-align: left; transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease; }.tile::after { position: absolute; right: .55rem; bottom: .55rem; width: 3.2rem; height: 3.2rem; border-radius: 50%; background: var(--tile-accent); content: ""; filter: blur(1.7rem); opacity: .52; }
 .tile__symbol { position: relative; z-index: 1; display: grid; width: 3.6rem; height: 3.6rem; place-items: center; align-self: center; border: .09rem solid currentColor; border-radius: .7rem; color: var(--tile-accent); font-size: 1.55rem; font-weight: 800; }.tile__copy { position: relative; z-index: 1; display: flex; min-width: 0; flex: 1; flex-direction: column; justify-content: flex-end; margin-left: .7rem; }.tile__name { overflow: hidden; font-size: .95rem; font-weight: 750; text-overflow: ellipsis; white-space: nowrap; }.tile__detail { margin-top: .2rem; color: var(--muted); font-size: .7rem; }.tile__detail--ready { color: var(--accent); }
+body[data-icon-style="gold"] .tile__symbol { border-color: #f2c46d; background: linear-gradient(135deg, rgba(242,196,109,.13), rgba(7,40,32,.42)); color: #f7d88c; text-shadow: 0 0 .7rem rgba(242,196,109,.4); }
 .tile.is-focused, .round-button:focus { z-index: 2; outline: none; border-color: #fff6d8; box-shadow: 0 0 0 .22rem #fff6d8, 0 0 1.5rem rgba(242,196,109,.6); transform: scale(1.045); }
 footer { display: flex; justify-content: space-between; margin-top: 1.2rem; color: rgba(225, 239, 239, .65); font-size: .67rem; }kbd { padding: .1rem .22rem; border: .05rem solid currentColor; border-radius: .18rem; font: inherit; }
 .toast { position: absolute; z-index: 10; bottom: 2.7rem; left: 50%; max-width: 42rem; padding: .8rem 1.15rem; border: .08rem solid var(--accent); border-radius: .55rem; background: rgba(5, 22, 34, .96); box-shadow: 0 .5rem 1.8rem rgba(0,0,0,.3); opacity: 0; pointer-events: none; transform: translate(-50%, 1.2rem); transition: opacity 180ms ease, transform 180ms ease; }.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }.toast.is-error { border-color: #ff8c88; }
