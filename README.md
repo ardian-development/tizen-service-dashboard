@@ -4,6 +4,8 @@ Ein werbefreies, fernbedienungsoptimiertes Dashboard für Samsung Smart TVs mit 
 
 Es zeigt Uhrzeit, Wetter, optionale RSS-Schlagzeilen, Webradio, installierte TV-Apps, erkannte HDMI-Eingänge und eine lokale Bildergalerie. Branding und Inhalte liegen in einer einzigen Konfigurationsdatei.
 
+![Neutrale Beispielansicht des Tizen Service Dashboards](docs/images/dashboard-preview.png)
+
 > Dieses Repository enthält keine Kundenfotos, Zugangsdaten, Anbieterlogos, Streaming-App-IDs oder fremde Medien. Marken und Inhalte gehören ihren jeweiligen Inhabern.
 
 ## Funktionen

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#15322d"/><stop offset="1" stop-color="#0e1d31"/></linearGradient><radialGradient id="sun"><stop stop-color="#f7d988"/><stop offset="1" stop-color="#ce9641" stop-opacity="0"/></radialGradient></defs>
+  <rect width="720" height="1080" fill="url(#bg)"/><circle cx="180" cy="186" r="225" fill="url(#sun)" opacity=".82"/><path d="M110 545c50-205 262-330 430-226 141 87 134 306-12 386-158 86-391 1-418-160Z" fill="none" stroke="#f4db95" stroke-width="20"/><path d="M193 482c48 78 97 155 147 232M372 406c-30 109-47 221-45 335M535 478c-67 78-123 164-164 258" fill="none" stroke="#80d5c2" stroke-width="21" stroke-linecap="round"/><text x="74" y="955" fill="#f7f1df" font-family="Arial, sans-serif" font-size="66" font-weight="700">BEAUTY</text><text x="76" y="1017" fill="#a8c9c1" font-family="Arial, sans-serif" font-size="28" letter-spacing="9">TIME FOR YOU</text>
+</svg>
+

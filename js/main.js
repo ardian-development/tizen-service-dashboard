@@ -117,7 +117,12 @@
         var target = byId("news-list");
         byId("news-title").textContent = string(news.title, "AKTUELLE NEWS");
         byId("news-source").textContent = string(news.sourceLabel, "RSS-Feed");
-        if (!feed) { target.innerHTML = "<li>RSS-Feed in js/dashboard.config.js eintragen.</li>"; return; }
+        if (!feed) {
+            target.innerHTML = "";
+            list(news.demoItems).slice(0, maxItems).forEach(function (headline) { var item = document.createElement("li"); item.textContent = headline; target.appendChild(item); });
+            if (!target.children.length) { target.innerHTML = "<li>RSS-Feed in js/dashboard.config.js eintragen.</li>"; }
+            return;
+        }
         url = proxy ? proxy + encodeURIComponent(feed) : feed;
         request(url, "text", function (xml) {
             var documentXml = new DOMParser().parseFromString(xml, "text/xml");

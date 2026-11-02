@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#102f37"/><stop offset="1" stop-color="#172134"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop stop-color="#80d5c2"/><stop offset="1" stop-color="#f4db95"/></linearGradient></defs>
+  <rect width="720" height="1080" fill="url(#bg)"/><path d="M0 315c132-125 287-137 424-37 112 82 210 85 296 21v290c-147 63-282 46-397-44C221 465 113 466 0 544Z" fill="#246559" opacity=".55"/><path d="M65 370c126-98 251-89 368 23 97 93 185 103 255 59" fill="none" stroke="url(#line)" stroke-width="20" stroke-linecap="round"/><circle cx="361" cy="583" r="102" fill="none" stroke="#f4db95" stroke-width="17"/><path d="M361 455v257M232 583h258" stroke="#80d5c2" stroke-width="16" stroke-linecap="round"/><text x="74" y="955" fill="#f7f1df" font-family="Arial, sans-serif" font-size="63" font-weight="700">WELLNESS</text><text x="76" y="1017" fill="#a8c9c1" font-family="Arial, sans-serif" font-size="28" letter-spacing="9">PAUSE &amp; RECHARGE</text>
+</svg>
+

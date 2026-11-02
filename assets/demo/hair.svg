@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#153d42"/><stop offset="1" stop-color="#071b2a"/></linearGradient><linearGradient id="gold" x1="0" x2="1"><stop stop-color="#f4db95"/><stop offset="1" stop-color="#b78332"/></linearGradient></defs>
+  <rect width="720" height="1080" fill="url(#bg)"/><circle cx="575" cy="170" r="190" fill="#2c7f70" opacity=".5"/><path d="M110 815c125-250 320-310 540-326" fill="none" stroke="url(#gold)" stroke-width="28" stroke-linecap="round"/><path d="M145 250c115 56 205 163 241 284" fill="none" stroke="#80d5c2" stroke-width="35" stroke-linecap="round"/><circle cx="247" cy="205" r="60" fill="none" stroke="#f4db95" stroke-width="17"/><text x="74" y="955" fill="#f7f1df" font-family="Arial, sans-serif" font-size="66" font-weight="700">HAIR</text><text x="76" y="1017" fill="#a8c9c1" font-family="Arial, sans-serif" font-size="28" letter-spacing="9">STYLE &amp; CARE</text>
+</svg>
+
