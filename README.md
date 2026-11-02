@@ -6,7 +6,13 @@ Es zeigt Uhrzeit, Wetter, optionale RSS-Schlagzeilen, Webradio, installierte TV-
 
 ![Neutrale Beispielansicht des Tizen Service Dashboards](docs/images/dashboard-preview.png)
 
-> Dieses Repository enthält keine Kundenfotos, Zugangsdaten, Anbieterlogos, Streaming-App-IDs oder fremde Medien. Marken und Inhalte gehören ihren jeweiligen Inhabern.
+### Anonymisierte Praxisansicht
+
+Die tatsächliche Anordnung auf einem TV: Die Galerie darf mit eigenen Fotos befüllt werden. Marke, QR-/Kontaktbereich, lokaler Nachrichtenabsender, Footer und Maskottchen sind in dieser freigegebenen Beispielaufnahme anonymisiert. Sie sind **nicht** Teil der Starter-App.
+
+![Anonymisierte Praxisansicht des Dashboards auf einem Fernseher](docs/images/dashboard-installation-anonymized.png)
+
+> Die Starter-App enthält keine Kundenfotos, Zugangsdaten, Anbieterlogos, Streaming-App-IDs oder fremde Medien. Die anonymisierte Praxisansicht dient nur als freigegebene Dokumentationsgrafik. Marken und Inhalte gehören ihren jeweiligen Inhabern.
 
 ## Funktionen
 
