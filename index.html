@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src https:; media-src 'self' https:; img-src 'self' data: https:; style-src 'self'; script-src 'self'">
+    <title>Service Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <main class="dashboard" aria-label="Service Dashboard">
+        <div class="background-orb background-orb--one" aria-hidden="true"></div>
+        <div class="background-orb background-orb--two" aria-hidden="true"></div>
+        <header class="hero">
+            <section>
+                <p id="brand-subtitle" class="eyebrow">SERVICE DASHBOARD</p>
+                <h1 id="business-name">Studio Beispiel</h1>
+                <p id="clock" class="clock">--:--</p>
+                <p id="clock-date" class="date">–</p>
+            </section>
+            <section id="weather-card" class="weather-card" aria-live="polite">
+                <p class="eyebrow">WETTER <span id="weather-location">–</span></p>
+                <div class="weather-main"><span id="weather-icon" class="weather-icon">☀</span><strong id="weather-temp">–°</strong><span id="weather-description">wird geladen</span></div>
+                <p id="weather-detail">–</p>
+            </section>
+        </header>
+
+        <section class="overview" aria-label="Informationen">
+            <article class="gallery-card"><div id="gallery-images" class="gallery-images"></div><div class="gallery-copy"><p class="eyebrow">DEIN STUDIO</p><h2 id="gallery-title">Willkommen</h2><p id="gallery-subtitle">–</p></div></article>
+            <article class="news-card"><p class="eyebrow" id="news-title">AKTUELLE NEWS</p><p id="news-source" class="muted">–</p><ol id="news-list"><li>Feed wird vorbereitet …</li></ol></article>
+            <article id="radio-card" class="radio-card" aria-label="Webradio">
+                <p class="eyebrow">WEBRADIO <span id="radio-state">BEREIT</span></p>
+                <div class="radio-controls"><button id="radio-prev" class="round-button" type="button" aria-label="Vorheriger Sender">‹</button><button id="radio-toggle" class="round-button round-button--main" type="button" aria-label="Radio starten">▶</button><button id="radio-next" class="round-button" type="button" aria-label="Nächster Sender">›</button></div>
+                <strong id="radio-name">Kein Sender konfiguriert</strong><span id="radio-detail">–</span>
+            </article>
+        </section>
+
+        <section class="launch-section" aria-label="Apps"><div class="section-heading"><h2>APPS</h2><p>← → wählen · OK starten · ↑ Radio</p></div><div id="apps-grid" class="tile-grid" role="grid"></div></section>
+        <section id="sources-section" class="launch-section" aria-label="Eingänge"><div class="section-heading"><h2>EINGÄNGE</h2><p>Verbundene HDMI-Quellen</p></div><div id="sources-grid" class="tile-grid tile-grid--sources" role="grid"></div></section>
+        <audio id="radio-audio" preload="none"></audio>
+        <footer><span><kbd>0</kbd> Einstellungen im Quellcode · <kbd>Zurück</kbd> schließen</span><span id="footer-status">Bereit</span></footer>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
+    <script src="js/dashboard.config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

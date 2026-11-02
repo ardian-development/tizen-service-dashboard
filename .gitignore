@@ -1,0 +1,12 @@
+.build/
+.buildResult/
+.package/
+.sign/
+*.wgt
+*.p12
+*.csr
+*.password
+dashboard.config.local.js
+assets/gallery/*
+!assets/gallery/.gitkeep
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://example.invalid/tizen-service-dashboard" version="1.0.0" viewmodes="maximized">
+    <!-- Replace YOURPKG123 with the 10-character package ID from your Samsung certificate. -->
+    <tizen:application id="YOURPKG123.ServiceDashboard" package="YOURPKG123" required_version="2.3"/>
+    <name>Service Dashboard</name>
+    <icon src="assets/icon.svg"/>
+    <content src="index.html"/>
+    <!-- Wildcard access makes the endpoints in js/dashboard.config.js configurable. Tighten this for production. -->
+    <access origin="*" subdomains="true"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/systeminfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/tv.window"/>
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <tizen:profile name="tv"/>
+    <tizen:setting background-support="disable" context-menu="enable" encryption="disable" hwkey-event="enable" install-location="auto" screen-orientation="landscape"/>
+</widget>
+
