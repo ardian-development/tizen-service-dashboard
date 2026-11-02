@@ -2,7 +2,7 @@
 setlocal EnableExtensions
 
 rem Set these once in your terminal, or change the defaults below.
-if "%TV_IP%"=="" set /p TV_IP=IP-Adresse des TVs: 
+if "%TV_IP%"=="" set /p "TV_IP=IP-Adresse des TVs: "
 if "%TV_PORT%"=="" set "TV_PORT=26101"
 if "%TIZEN_HOME%"=="" set "TIZEN_HOME=C:\tizen-studio"
 if "%CERTIFICATE_PROFILE%"=="" set "CERTIFICATE_PROFILE=ServiceDashboard"
